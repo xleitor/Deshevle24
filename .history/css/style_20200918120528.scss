@@ -1,0 +1,17 @@
+@import "nullstyle.scss";
+.header-menu{
+   background-color: #f5f5f5;
+
+   .container{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+   }
+   .main-menu{
+      margin-left: 157px;
+   }
+   .header-contact{
+      margin-right: 0px;
+   }
+}

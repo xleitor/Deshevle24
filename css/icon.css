@@ -1,0 +1,57 @@
+.icon{
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+.icon-search{
+	background-image: url('../images/logo/search_(1).png');
+	width: 17px;
+	height: 15px;
+}
+.icon-like{
+	background-image: url("../images/logo/like.png");
+	background-repeat: no-repeat;
+	width: 17px;
+	height: 15px;
+}
+.icon-basket{
+	background-image: url("../images/logo/shopping-cart.png");
+	width: 17px;
+	height: 15px;
+}
+.icon-vk{
+	background-image: url(../images/icons/vk.png);
+	width: 22px;
+	height: 12px;
+}
+.icon-ok{
+	background-image: url(../images/icons/ok.png);
+	width: 12px;
+	height: 20px;
+}
+.icon-insta{
+	background-image: url(../images/icons/insta.png);
+	width: 22px;
+	height: 22px;
+}
+.icon-facebook{
+	background-image: url(../images/icons/facebook.png);
+	width: 10px;
+	height: 22px;
+}
+.icon-visa{
+	background-image: url(../images/icons/visa.png);
+	width: 57px;
+	height: 38px;
+}
+.icon-master{
+	background-image: url(../images/icons/master.png);
+	width: 59px;
+	height: 38px;
+}
+.icon-yandex{
+	background-image: url(../images/icons/yandex.png);
+	width: 91px;
+	height: 34px;
+}
