@@ -252,6 +252,8 @@ main .breadcrumbs .container span:nth-child(-n + 4) {
 main .container {
   width: 85%;
   margin: 0 auto;
+  color: #010101;
+  margin-bottom: 214px;
 }
 
 main .container .title-1 {
@@ -265,4 +267,74 @@ main .container p {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 31px;
+}
+
+main .container .section {
+  border: 1px solid #e8e8e8;
+  margin-top: 67px;
+  margin-bottom: 80px;
+}
+
+main .container .title-2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+main .container .article-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .container .article-list .article-list-item .article-image {
+  background-color: #8e8e8e;
+  height: 192px;
+  width: 259px;
+}
+
+main .container .article-list .article-list-item .article-date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .container .article-list .article-list-item .article-date span {
+  font-size: 12px;
+  color: #9b9b9b;
+  margin-top: 20px;
+  margin-bottom: 17px;
+  width: 16%,666%;
+}
+
+footer {
+  background-color: #f7f7f7;
+}
+
+footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 85%;
+  margin: 0 auto;
+}
+
+footer .container .footer-column {
+  width: 16.6666%;
+}
+
+footer .container .footer-column .footer-column-contact {
+  width: 83,3%;
+}
+
+footer .container .footer-column .footer-column-contact .footer-column-support {
+  font-size: 16px;
+  font-weight: 500;
 }
