@@ -204,6 +204,7 @@ footer{
    background-color: #f7f7f7;
    .container{
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-between;
       width: 85%;
       margin: 0 auto;
@@ -229,7 +230,28 @@ footer{
 
         }
       }
-      
+      .footer-column{
+         width: 16.6666%;
+         .footer-column-contact{
+            width: 83,3%;
+            .footer-column-support{
+               font-size: 16px;
+               font-weight: 500;
+               padding-top: 27px;
+            }
+            .footer-column-time{
+               font-size: 12px;
+               color:#767676;
+               padding-top: 17px;
+            }
+            .footer-column-call{
+               font-size: 18px;
+               font-weight: 600;
+               padding-top: 12px;
+            }
+ 
+         }
+       }
       
    }
 

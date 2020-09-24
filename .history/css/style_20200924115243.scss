@@ -204,12 +204,13 @@ footer{
    background-color: #f7f7f7;
    .container{
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-between;
       width: 85%;
       margin: 0 auto;
       .footer-column{
         width: 16.6666%;
-        .footer-column-contact{
+        *.footer-column-contact{
            width: 83,3%;
            .footer-column-support{
               font-size: 16px;
@@ -228,10 +229,6 @@ footer{
            }
 
         }
-      }
-      
-      
+      }  
    }
-
-
 }

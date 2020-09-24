@@ -200,10 +200,10 @@ main{
    }
 } 
 footer{
-   padding-top: 78px;
    background-color: #f7f7f7;
    .container{
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-between;
       width: 85%;
       margin: 0 auto;
@@ -222,16 +222,10 @@ footer{
               padding-top: 17px;
            }
            .footer-column-call{
-              font-size: 18px;
-              font-weight: 600;
-              padding-top: 12px;
+              font-size: 16px;
            }
 
         }
-      }
-      
-      
+      }  
    }
-
-
 }

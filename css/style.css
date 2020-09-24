@@ -310,6 +310,7 @@ main .container .article-list .article-list-item .article-date span {
 }
 
 footer {
+  padding-top: 78px;
   background-color: #f7f7f7;
 }
 
@@ -317,8 +318,6 @@ footer .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -337,4 +336,17 @@ footer .container .footer-column .footer-column-contact {
 footer .container .footer-column .footer-column-contact .footer-column-support {
   font-size: 16px;
   font-weight: 500;
+  padding-top: 27px;
+}
+
+footer .container .footer-column .footer-column-contact .footer-column-time {
+  font-size: 12px;
+  color: #767676;
+  padding-top: 17px;
+}
+
+footer .container .footer-column .footer-column-contact .footer-column-call {
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 12px;
 }
