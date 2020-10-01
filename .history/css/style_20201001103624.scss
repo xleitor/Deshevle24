@@ -79,22 +79,6 @@ header{
             width: 90px;
             height: 90px;
             justify-content: center;
-            &:hover{
-               transition: 0.3s;
-               & hr:nth-child(1){
-                  width:100%;
-                  
-               }
-               & hr:nth-child(2){
-                  width: 75%;
-                 
-               }
-               & hr:nth-child(3){
-                  width: 50%;
-                
-               }
-               }
-            }
 
          .burger{
             width: 18%;
@@ -152,7 +136,7 @@ header{
           margin: 0 auto;
 
        }
-      
+    }  
 }
 main{
    .breadcrumbs{

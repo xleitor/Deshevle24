@@ -80,18 +80,15 @@ header{
             height: 90px;
             justify-content: center;
             &:hover{
-               transition: 0.3s;
+               
                & hr:nth-child(1){
-                  width:100%;
-                  
+                  width:100%
                }
                & hr:nth-child(2){
                   width: 75%;
-                 
                }
                & hr:nth-child(3){
                   width: 50%;
-                
                }
                }
             }
