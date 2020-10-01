@@ -90,7 +90,6 @@ header{
                 &+ hr{
                   margin-top: 4px;
                }
-               
             }
          }
       }
@@ -103,7 +102,6 @@ header{
 
       }
     .header-btns{
-       
       
      
        a:nth-child(1){
@@ -172,7 +170,6 @@ main{
          .title-2{
             font-size: 28px;
             font-weight:bold;
-            padding-bottom: 75px;
          }
          .article-list{
             display: flex;
@@ -250,6 +247,9 @@ footer{
          font-size: 16px;
          font-weight: 500;
          padding-top: 30px
+
+        
+       
       }
       .footer-column-time{
          font-size: 12px;

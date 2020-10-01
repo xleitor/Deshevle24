@@ -81,7 +81,7 @@ header{
             justify-content: center;
 
          .burger{
-            width: 18%;
+            width: 25%;
             
             hr{
             
@@ -90,7 +90,6 @@ header{
                 &+ hr{
                   margin-top: 4px;
                }
-               
             }
          }
       }
@@ -103,7 +102,6 @@ header{
 
       }
     .header-btns{
-       
       
      
        a:nth-child(1){

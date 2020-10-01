@@ -82,6 +82,12 @@ header{
 
          .burger{
             width: 18%;
+            &:nth-child(2):hover{
+               width: 15%;
+            }
+            &:nth-child(3):hover{
+               width: 10%
+            }
             
             hr{
             
@@ -90,7 +96,6 @@ header{
                 &+ hr{
                   margin-top: 4px;
                }
-               
             }
          }
       }
@@ -103,7 +108,6 @@ header{
 
       }
     .header-btns{
-       
       
      
        a:nth-child(1){
