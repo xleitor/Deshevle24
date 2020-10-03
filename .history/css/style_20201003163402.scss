@@ -6,7 +6,12 @@ $clrf5f5: #f5f5f5;
    }
    
 }
-
+@mixin hover {
+   a:hover{
+      color:#ce5d03;
+   }
+   
+}
 body{
    font-family: gilroy,sans-serif;
    font-size: 14px;
@@ -63,7 +68,7 @@ header{
    .container{
       display: flex;
       flex-wrap: wrap;
-      align-items:stretch;
+      align-items:center;
       justify-content: space-between;
       width: 85%;
       margin: 0 auto;
@@ -124,21 +129,21 @@ header{
        display: flex;
        align-items: center;
        margin-right: -1px;
-       a{
-         padding: 0 32px;
-         display: flex;
-         align-items: center;
-       }
        
 
      
        a:nth-child(1){
+          padding: 32px;
           border-left: 1px solid $clrf5f5;
           border-right: 1px solid $clrf5f5;
           
        }
-       
+       a:nth-child(2){
+         padding: 32px;
+         
+       }
        a:nth-child(3){
+          padding: 32px;
           border-left: 1px solid $clrf5f5;
           border-right: 1px solid $clrf5f5;
        }
@@ -369,10 +374,6 @@ footer{
               .footer-column-info{
                color:#818181;
                padding-top: 15px;
-               &:hover{
-                  color:#ce5d03;
-               }
-               
               }    
            }
            .footer-furniture:nth-child(2){
@@ -385,10 +386,6 @@ footer{
               .footer-column-info{
                color:#818181;
                padding-top: 15px;
-               &:hover{
-                  color:#ce5d03;
-               }
-               
               }
            }
          }
@@ -421,9 +418,6 @@ footer{
       a{
          font-size: 12px;
          color: #3f6dfe;
-         &:hover{
-            color:#ce5d03;
-         }
       }
    }
 }

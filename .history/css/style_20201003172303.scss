@@ -126,8 +126,6 @@ header{
        margin-right: -1px;
        a{
          padding: 0 32px;
-         display: flex;
-         align-items: center;
        }
        
 
@@ -137,7 +135,7 @@ header{
           border-right: 1px solid $clrf5f5;
           
        }
-       
+       }
        a:nth-child(3){
           border-left: 1px solid $clrf5f5;
           border-right: 1px solid $clrf5f5;
