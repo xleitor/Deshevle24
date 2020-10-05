@@ -211,7 +211,7 @@ main{
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-            .article-list-item{
+            .article-list-link{
                color:#010101;
                &:hover{
                   box-shadow: 0 0 10px #adabab;

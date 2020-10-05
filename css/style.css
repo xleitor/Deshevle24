@@ -347,14 +347,16 @@ main .container .article-list {
           justify-content: space-between;
 }
 
-main .container .article-list .article-list-link {
+main .container .article-list .article-list-item {
   color: #010101;
 }
 
-main .container .article-list .article-list-link:hover {
+main .container .article-list .article-list-item:hover {
   -webkit-box-shadow: 0 0 10px #adabab;
           box-shadow: 0 0 10px #adabab;
   color: inherit !important;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 main .container .article-list .article-list-item {
