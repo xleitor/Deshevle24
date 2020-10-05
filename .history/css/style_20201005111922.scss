@@ -211,12 +211,10 @@ main{
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-            .article-list-link{
-               color:#010101;
-               &:hover{
-                  box-shadow: 0 0 10px #adabab;
-               }
+            .article-list-link:hover{
+               box-shadow: 0 0 15px #ececec;
             }
+            
             .article-list-item{
                width: 259px;
                
@@ -310,16 +308,10 @@ footer{
             }
             &:hover{
                background-color: #f56d01;
-               color:#ffffff !important;
+               color:#ffffff;
                border: 1px solid #f56d01;
                transition: 0.3s;
             }
-         }
-         .footer-column-support-link{
-            color:#000000;
-         }
-         .footer-column-info-link{
-            color:#818181;
          }
       }
       .footer-column:nth-child(3){

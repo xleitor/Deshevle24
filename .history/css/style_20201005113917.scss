@@ -310,16 +310,10 @@ footer{
             }
             &:hover{
                background-color: #f56d01;
-               color:#ffffff !important;
+               color:#ffffff;
                border: 1px solid #f56d01;
                transition: 0.3s;
             }
-         }
-         .footer-column-support-link{
-            color:#000000;
-         }
-         .footer-column-info-link{
-            color:#818181;
          }
       }
       .footer-column:nth-child(3){
