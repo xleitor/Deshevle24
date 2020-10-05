@@ -354,10 +354,12 @@ main .container .article-list .article-list-link {
 main .container .article-list .article-list-link:hover {
   -webkit-box-shadow: 0 0 10px #adabab;
           box-shadow: 0 0 10px #adabab;
+  color: inherit !important;
 }
 
 main .container .article-list .article-list-item {
   width: 259px;
+  padding: 35px;
 }
 
 main .container .article-list .article-list-item .article-image {
