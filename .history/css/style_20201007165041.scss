@@ -97,8 +97,8 @@ header{
                   width: 50%;
                 
                }
+               }
             }
-         }
 
          .burger{
             width: 18%;
@@ -123,25 +123,6 @@ header{
    }
 
       }
-      .catalog-menu-wrap{
-         width: 100%;
-         position: absolute;
-         .container{
-            display: flex;
-            display: -webkit-box;
-            display: -webkit-flex;
-            background-color: #f7f7f7;
-            .catalog-menu-nav{
-               width:90px;
-               .cactalog-menu-nav-item{
-                  
-               }
-               }
-            }
-               
-               
-           
-         }   
     .header-btns{
        display: flex;
        align-items: stretch;
@@ -166,10 +147,23 @@ header{
        }
        a:hover{
          box-shadow: 0 0 15px #e1e1e1;
-         
       
       }
-      
+      .catalog-menu-wrap{
+         width: 100%;
+         position: absolute;
+         .container{
+            display: flex;
+            display: -webkit-box;
+            display: -webkit-flex;
+            .catalog-menu-nav{
+               width:90px
+               }
+            }
+               
+               
+           
+         }   
    
 
     

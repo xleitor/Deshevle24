@@ -97,8 +97,8 @@ header{
                   width: 50%;
                 
                }
+               }
             }
-         }
 
          .burger{
             width: 18%;
@@ -126,16 +126,13 @@ header{
       .catalog-menu-wrap{
          width: 100%;
          position: absolute;
+         background-color: #f7f7f7;
          .container{
             display: flex;
             display: -webkit-box;
             display: -webkit-flex;
-            background-color: #f7f7f7;
             .catalog-menu-nav{
-               width:90px;
-               .cactalog-menu-nav-item{
-                  
-               }
+               width:90px
                }
             }
                
@@ -166,7 +163,6 @@ header{
        }
        a:hover{
          box-shadow: 0 0 15px #e1e1e1;
-         
       
       }
       

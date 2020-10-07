@@ -227,6 +227,23 @@ header .container .logo {
   margin-left: 45px;
 }
 
+.catalog-menu-wrap {
+  width: 100%;
+  position: absolute;
+}
+
+.catalog-menu-wrap .container {
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  background-color: #f7f7f7;
+}
+
+.catalog-menu-wrap .container .catalog-menu-nav {
+  width: 90px;
+}
+
 .header-btns {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -260,22 +277,6 @@ header .container .logo {
 .header-btns a:hover {
   -webkit-box-shadow: 0 0 15px #e1e1e1;
           box-shadow: 0 0 15px #e1e1e1;
-}
-
-.header-btns .catalog-menu-wrap {
-  width: 100%;
-  position: absolute;
-}
-
-.header-btns .catalog-menu-wrap .container {
-  display: -ms-flexbox;
-  display: flex;
-  display: -webkit-box;
-  display: -webkit-flex;
-}
-
-.header-btns .catalog-menu-wrap .container .catalog-menu-nav {
-  width: 90px;
 }
 
 main .breadcrumbs {
