@@ -151,18 +151,12 @@ header{
       }
    
    .catalog-menu-wrap{
+      display: flex;
       width: 100%;
       position: absolute;
       .container{
          display: flex;
-         display: -webkit-box;
-         display: -webkit-flex;
-         .catalog-menu-nav{
-            width:90px
-         }
       }
-         
-         
      
    }   
       

@@ -150,21 +150,22 @@ header{
       
       }
    
-   .catalog-menu-wrap{
-      width: 100%;
-      position: absolute;
+   .catalog-menu-wrap:active{
+     
       .container{
-         display: flex;
-         display: -webkit-box;
-         display: -webkit-flex;
+        
          .catalog-menu-nav{
-            width:90px
+            display: flex;
+            align-items: stretch;
+            flex-wrap: wrap;
          }
       }
-         
-         
-     
-   }   
+      
+   }
+      
+       
+    
+    
       
 }
 main{

@@ -151,20 +151,23 @@ header{
       }
    
    .catalog-menu-wrap{
+      background-color: ;
+      top: -1100%;
+      left: 0;
       width: 100%;
       position: absolute;
+      opacity: 0;
+      z-index: -1;
       .container{
-         display: flex;
-         display: -webkit-box;
-         display: -webkit-flex;
-         .catalog-menu-nav{
-            width:90px
-         }
+         width: 85%;
+         margin: 0 auto;
       }
-         
-         
-     
-   }   
+      
+   }
+      
+       
+    
+    
       
 }
 main{

@@ -150,21 +150,24 @@ header{
       
       }
    
-   .catalog-menu-wrap{
-      width: 100%;
-      position: absolute;
+   .catalog-menu-wrap:active{
+      background-color: #f7f7f7;
+      top: 100%;
+      opacity: 1;
+      z-index: 1;
       .container{
-         display: flex;
-         display: -webkit-box;
-         display: -webkit-flex;
+         width: 85%;
+         margin: 0 auto;
          .catalog-menu-nav{
-            width:90px
+            
          }
       }
-         
-         
-     
-   }   
+      
+   }
+      
+       
+    
+    
       
 }
 main{

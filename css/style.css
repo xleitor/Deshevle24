@@ -262,16 +262,20 @@ header .container .logo {
           box-shadow: 0 0 15px #e1e1e1;
 }
 
-.catalog-menu-wrap {
+.header-btns .catalog-menu-wrap {
+  width: 100%;
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
-.catalog-menu-wrap .container {
-  width: 85%;
-  margin: 0 auto;
+.header-btns .catalog-menu-wrap .container {
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+}
+
+.header-btns .catalog-menu-wrap .container .catalog-menu-nav {
+  width: 90px;
 }
 
 main .breadcrumbs {
@@ -360,7 +364,7 @@ main .container .article-list .article-list-item:hover {
 }
 
 main .container .article-list .article-list-item {
-  width: 259px;
+  width: 23.125%;
   padding: 35px;
 }
 

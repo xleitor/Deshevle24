@@ -151,19 +151,19 @@ header{
       }
    
    .catalog-menu-wrap{
-      width: 100%;
-      position: absolute;
+       position: absolute;
+       top: -1100%;
+       left: 0;
+       width: 100%;
+       opacity: 0;
+       z-index: -1;
       .container{
-         display: flex;
-         display: -webkit-box;
-         display: -webkit-flex;
-         .catalog-menu-nav{
-            width:90px
+          width: 85%;
+          margin: 0 auto;
+          .catalog-menu-nav-item{
+
+          }
          }
-      }
-         
-         
-     
    }   
       
 }

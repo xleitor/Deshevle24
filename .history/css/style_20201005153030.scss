@@ -147,24 +147,22 @@ header{
        }
        a:hover{
          box-shadow: 0 0 15px #e1e1e1;
-      
-      }
-   
-   .catalog-menu-wrap{
-      width: 100%;
-      position: absolute;
-      .container{
-         display: flex;
-         display: -webkit-box;
-         display: -webkit-flex;
+          
+       }
+       
+    }
+    .catalog-menu-wrap:active{
+       display: flex;
+       background-color: #f7f7f7;
+       opacity: 1;
+       .container{
+          width: 85%;
+          margin: 0 auto;
          .catalog-menu-nav{
-            width:90px
+            widows: 90px;;
          }
-      }
-         
-         
-     
-   }   
+
+       }
       
 }
 main{
