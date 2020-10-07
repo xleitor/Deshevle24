@@ -122,26 +122,26 @@ header{
       }
    }
 
-      
-   .catalog-menu-wrap{
-      width: 100%;
-       position: absolute;
-      .container{
-         display: flex;
-         display: -webkit-box;
-         display: -webkit-flex;
-         background-color: #f7f7f7;
-         .catalog-menu-nav{
-            width:90px;
-               
+
+      .catalog-menu-wrap{
+         width: 100%;
+         position: absolute;
+         .container{
+            display: flex;
+            display: -webkit-box;
+            display: -webkit-flex;
+            background-color: #f7f7f7;
+            .catalog-menu-nav{
+               width:90px;
+               .cactalog-menu-nav-item{
+                  
+               }
+               }
             }
-         }
                
                
            
-      } 
-   }
-         
+         }   
     .header-btns{
        display: flex;
        align-items: stretch;

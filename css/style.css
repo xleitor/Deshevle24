@@ -227,12 +227,12 @@ header .container .logo {
   margin-left: 45px;
 }
 
-.catalog-menu-wrap {
+header .catalog-menu-wrap {
   width: 100%;
   position: absolute;
 }
 
-.catalog-menu-wrap .container {
+header .catalog-menu-wrap .container {
   display: -ms-flexbox;
   display: flex;
   display: -webkit-box;
@@ -240,7 +240,7 @@ header .container .logo {
   background-color: #f7f7f7;
 }
 
-.catalog-menu-wrap .container .catalog-menu-nav {
+header .catalog-menu-wrap .container .catalog-menu-nav {
   width: 90px;
 }
 
