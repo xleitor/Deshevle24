@@ -160,9 +160,7 @@ header{
                padding: 25px 8px;
                height: 135px;
                &:hover{
-                  box-shadow: 0 0 10px #e1e1e1;
-                  background-color: #f7f7f7;
-                  transition: 0.3s;
+                  
                }
             }
          }
@@ -174,16 +172,10 @@ header{
             position: relative;
             background-color: #f7f7f7;
             .catalog-menu-nav-item{
-               width: 210px;
                text-align: center;
                border-right: 1px solid #f7f7f7;
                border-bottom: 1px solid #f7f7f7;
                padding: 50px 30px;
-               &:hover{
-                  box-shadow: 0 0 10px #e1e1e1;
-                  background-color: #ffffff;
-                  transition: 0.3s;
-               }
             }
          }
       }

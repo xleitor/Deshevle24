@@ -174,7 +174,7 @@ header{
             position: relative;
             background-color: #f7f7f7;
             .catalog-menu-nav-item{
-               width: 210px;
+               width: calc((100% - 90px) - 210px);
                text-align: center;
                border-right: 1px solid #f7f7f7;
                border-bottom: 1px solid #f7f7f7;
