@@ -147,11 +147,12 @@ header{
   .catalog-menu-wrap{
       width: 100%;
       position: absolute;
-      top:100%;
+      top:0;
       left:-100%;
-      transition: 0.3s; 
-      &.active{
-         left: 0;
+      &:active{
+         left: 0;       
+
+
       }
       .container{
          display: flex;

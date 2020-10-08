@@ -148,10 +148,8 @@ header{
       width: 100%;
       position: absolute;
       top:100%;
-      left:-100%;
-      transition: 0.3s; 
-      &.active{
-         left: 0;
+      &:active{
+
       }
       .container{
          display: flex;

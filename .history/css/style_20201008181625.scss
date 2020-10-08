@@ -149,9 +149,12 @@ header{
       position: absolute;
       top:100%;
       left:-100%;
-      transition: 0.3s; 
+      transition: 0.5s; 
       &.active{
          left: 0;
+               
+
+
       }
       .container{
          display: flex;
