@@ -185,6 +185,7 @@ header{
             width: calc(100% - 90px);
             position: relative;
             background-color: #f7f7f7;
+            }
             .catalog-menu-content-item{
                display: none;
                height: 200px;
@@ -192,9 +193,6 @@ header{
                color:inherit;
                text-align: center;
                padding: 50px 30px;
-               &.active{
-                  display: block;
-               }
                &:hover{
                   box-shadow: 0 0 10px #e1e1e1;
                   background-color: #ffffff;

@@ -193,7 +193,7 @@ header{
                text-align: center;
                padding: 50px 30px;
                &.active{
-                  display: block;
+                  display: flex;
                }
                &:hover{
                   box-shadow: 0 0 10px #e1e1e1;

@@ -328,11 +328,16 @@ header .catalog-menu-wrap .container .catalog-menu-content {
 }
 
 header .catalog-menu-wrap .container .catalog-menu-content .catalog-menu-content-item {
+  display: none;
   height: 200px;
   width: 20%;
   color: inherit;
   text-align: center;
   padding: 50px 30px;
+}
+
+header .catalog-menu-wrap .container .catalog-menu-content .catalog-menu-content-item.active {
+  display: block;
 }
 
 header .catalog-menu-wrap .container .catalog-menu-content .catalog-menu-content-item:hover {
