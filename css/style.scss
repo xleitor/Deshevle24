@@ -122,6 +122,16 @@ header{
     display: flex;
     align-items: stretch;
     margin-right: -1px;
+    div{
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      border-left: 1px solid $clrf5f5;
+      border-right: 1px solid $clrf5f5;
+      &:hover{
+         box-shadow: 0 0 15px #e1e1e1;
+      }
+    }
 
     a {
       padding: 0 32px;

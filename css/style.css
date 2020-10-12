@@ -242,6 +242,23 @@ header .header-btns {
   margin-right: -1px;
 }
 
+header .header-btns div {
+  padding: 0 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-left: 1px solid #f5f5f5;
+  border-right: 1px solid #f5f5f5;
+}
+
+header .header-btns div:hover {
+  -webkit-box-shadow: 0 0 15px #e1e1e1;
+          box-shadow: 0 0 15px #e1e1e1;
+}
+
 header .header-btns a {
   padding: 0 32px;
   display: -webkit-box;
