@@ -129,11 +129,15 @@ header{
       align-items: center;
       input{
          width: 1px;
-         &:hover{
-            width: 470px;
-         }
+         transition: 0.3s;
       }
-   
+      &:hover{
+         input{
+            width: 470px;
+
+         }
+
+      }
     }
     
 

@@ -254,9 +254,11 @@ header .header-btns a, header .header-btns div {
 
 header .header-btns a input, header .header-btns div input {
   width: 1px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
-header .header-btns a input:hover, header .header-btns div input:hover {
+header .header-btns a:hover input, header .header-btns div:hover input {
   width: 470px;
 }
 
