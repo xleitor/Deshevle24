@@ -256,7 +256,7 @@ header .header-btns a input, header .header-btns div input {
   width: 1px;
 }
 
-header .header-btns div:hover {
+header .header-btns a input:hover, header .header-btns div input:hover {
   width: 470px;
 }
 
