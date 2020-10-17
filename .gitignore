@@ -1,11 +1,8 @@
-.history
-.vscode
-.ucheba
 .sass-cache
 .idea
-/webpack-24/
-.style.css.map
+css/style.css.map
+bootstrap24
+package-lock.json
+node_modules
+webpack-24
 
-/bootstrap24/
-.package-lock.json
-.node_modules/bootstrap
