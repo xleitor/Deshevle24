@@ -1,8 +1,6 @@
-.sass-cache
-.idea
-css/style.css.map
-bootstrap24
+sass-cache/
+style.css.map
 package-lock.json
-node_modules
-webpack-24
+node_modules/
+
 
