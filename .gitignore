@@ -5,3 +5,7 @@
 .idea
 /webpack-24/
 .style.css.map
+
+/bootstrap24/
+.package-lock.json
+.node_modules/bootstrap
