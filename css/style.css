@@ -283,6 +283,32 @@ main .container {
     background-image: url("../images/jpg/Wireframe.png");
     width: 100%;
     height: 800px; }
+    main .container .main-slider .main-slider-description {
+      padding-top: 213px;
+      padding-left: 165px; }
+      main .container .main-slider .main-slider-description .description-collection span {
+        display: block; }
+        main .container .main-slider .main-slider-description .description-collection span:nth-child(1) {
+          color: #5d5d5d; }
+        main .container .main-slider .main-slider-description .description-collection span:nth-child(2) {
+          color: #f3740f;
+          font-size: 16px; }
+      main .container .main-slider .main-slider-description .slider-block {
+        display: flex;
+        font-size: 36px;
+        font-weight: bold; }
+      main .container .main-slider .main-slider-description .slider-block-about span {
+        display: block;
+        color: #1d1d1d;
+        font-size: 14px; }
+      main .container .main-slider .main-slider-description .slider-sale {
+        padding-top: 37px; }
+        main .container .main-slider .main-slider-description .slider-sale s {
+          color: #9f9f9f;
+          font-size: 24px; }
+        main .container .main-slider .main-slider-description .slider-sale b {
+          display: block;
+          font-size: 36px; }
 
 footer {
   padding-top: 78px;
