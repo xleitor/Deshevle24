@@ -354,9 +354,16 @@ main{
                   }
 
                }
-              .slider-button{
+               .slider-button{
+                  padding-top: 54px;
+                  .slider-button-link{
+                     margin-top: 54px;
+                     background-color: #f56d01;
+                     padding: 25px 45px;
+                     color: #ffffff;
+                  }
+               }
 
-              }
 
 
             }
