@@ -315,7 +315,8 @@ main .container {
           margin-top: 54px;
           background-color: #f56d01;
           padding: 25px 45px;
-          color: #ffffff; }
+          color: #ffffff;
+          border-color: #d4d4d7; }
 
 footer {
   padding-top: 78px;

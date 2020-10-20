@@ -55,3 +55,8 @@
 	width: 91px;
 	height: 34px;
 }
+.icon-arrow{
+	background-image: url("../images/icons/right-arrow.png");
+	width: 18px;
+	height: 14px;
+}
